@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#212121">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/allot_proj"
+        android:hint="Name Of Allocated Project"
+        android:padding="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittext_style"
+        android:enabled="false"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/proj_det"
+        android:layout_below="@id/allot_proj"
+        android:clickable="false"
+        android:text="Details Of Alloted Project"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_style"
+        android:enabled="false"
+        />
+
+
+    <TextView
+        android:id="@+id/ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/proj_det"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textColor="#FFFFFF"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/enddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/proj_det"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:text="DD/MM/YYYY" />
+
+    <ImageButton
+        android:id="@+id/calender3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/proj_det"
+        android:src="@drawable/ic_date_range_black_24dp"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_marginTop="10dp"
+        android:onClick="calenderview"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hours Spend"
+        android:layout_below="@id/calender3"
+        android:id="@+id/hrs_spnd"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/edittext_style"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hrs_spnd"
+        android:id="@+id/details"
+        android:hint="Details of Work Done"
+        android:padding="10dp"
+        android:lines="5"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/edittext_style"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details"
+        android:id="@+id/percentage"
+        android:hint="Percentage of Work Completed"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:background="@drawable/edittext_style"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/sbmt_upd"
+        android:background="@drawable/button_style2"
+        android:layout_marginBottom="5dp"
+        android:text="Submit"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>

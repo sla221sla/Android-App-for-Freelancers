@@ -1,0 +1,4 @@
+#Wed May 08 20:28:02 IST 2019
+base.0=F\:\\Project\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

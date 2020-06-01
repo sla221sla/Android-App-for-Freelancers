@@ -1,0 +1,4 @@
+#Wed Jul 31 12:31:30 IST 2019
+base.0=E\:\\Sri\\Project\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\754
+path.0=classes.dex
+renamed.0=classes.dex

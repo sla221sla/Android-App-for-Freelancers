@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newfreeusr"
+        android:hint="Username"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edittext_style"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newfreepsw"
+        android:hint="Password"
+        android:layout_below="@+id/newfreeusr"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_style"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newfreepsw2"
+        android:hint="Confirm Password"
+        android:layout_below="@+id/newfreepsw"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_style"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:id="@+id/create"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_style"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        />
+
+    <include layout="@layout/activity_main"/>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jul 31 12:37:09 IST 2019
+0.baseType=DIRECTORY
+0.base=E\:\\Sri\\Project\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\766
+0.path=classes.dex
+0.set=DEX
+count=1
